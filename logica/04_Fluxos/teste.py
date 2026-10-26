@@ -1,13 +1,13 @@
-for contador in range (1, 1001):
+for i in range (1, 1001):
 
-	if contador % 15 == 0:
-		print (contador, "Fizz")
+	if i % 15 == 0:
+		print (i, "FizzBuzz")
 	
-	elif contador % 3 == 0:
-		print(contador, "Buzz")
+	elif i % 3 == 0:
+		print(i, "Fizz")
 	
-	elif contador % 5 == 0: 
-		print(contador, "FizzBuzz")
+	elif i % 5 == 0: 
+		print(i, "Buzz")
 	
 	else: 
-		print (contador)
+		print (i)
